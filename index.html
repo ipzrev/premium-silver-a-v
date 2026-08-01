@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Антон и Виталина</title>
+
+    <meta
+      name="description"
+      content="Будем рады видеть вас на нашем торжестве"
+    />
+
+    <meta property="og:title" content="Антон и Виталина" />
+    <meta
+      property="og:description"
+      content="Будем рады видеть вас на нашем торжестве"
+    />
+    <meta
+      property="og:image"
+      content="https://ipzrev.github.io/premium-silver/assets/images/preview.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://ipzrev.github.io/premium-silver/"
+    />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Антон и Виталина" />
+    <meta
+      name="twitter:description"
+      content="Будем рады видеть вас на нашем торжестве"
+    />
+    <meta
+      name="twitter:image"
+      content="https://ipzrev.github.io/premium-silver/assets/images/preview.jpg"
+    />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./assets/icons/fav.png" type="image/jpeg" />
+    <link rel="stylesheet" href="./css/qr.css" />
+  </head>
+  <body>
+    <div class="mobile">
+      <section class="hero container">
+        <h1 class="hero-title-left">ЛЮБОВЬ - ЭТО...</h1>
+        <div class="word-changing-container">
+          <div class="word-changing hero-title-right" id="changingWord"></div>
+        </div>
+        <div class="hero-main-content">
+          <div class="img-1"></div>
+          <p class="a-a-v">АНТОН<br />И ВИТАЛИНА</p>
+        </div>
+      </section>
+
+      <section class="info container">
+        <h2>Дорогие друзья</h2>
+        <div class="divider"></div>
+        <div class="info-text">
+          <p>
+            Есть в жизни моменты, когда хочется, чтобы рядом были самые близкие,
+            любимые и родные люди. Именно такой момент наступает в нашей жизни.
+          </p>
+          <p>
+            Хотим, чтобы вы разделили с нами радость и были на торжестве в самый
+            лучший и трогательный день в нашей жизни!
+          </p>
+        </div>
+      </section>
+
+      <section class="date">
+        <h1>26</h1>
+        <h1>09</h1>
+        <h1>26</h1>
+      </section>
+
+      <section class="location container">
+        <h2>Место</h2>
+        <div class="divider"></div>
+        <div class="location-text">
+          <p>п. Мостовской</p>
+          <p>ул. Березуцкого 29</p>
+        </div>
+        <a href="https://yandex.ru/maps/-/CTftvBpL" class="button">
+          Открыть карту
+        </a>
+      </section>
+
+      <section class="gallery">
+        <div class="gallery-track">
+          <img src="./assets/images/2.JPG" alt="" class="gallery-image" />
+          <img src="./assets/images/3.JPG" alt="" class="gallery-image" />
+          <img src="./assets/images/4.PNG" alt="" class="gallery-image" />
+        </div>
+      </section>
+
+      <section class="timer-block container">
+        <h2>Осталось совсем немного</h2>
+        <div class="divider"></div>
+        <div class="timer">
+          <div class="timer-item">
+            <span id="days" class="timer-number">00</span>
+            <span class="timer-label">Дни</span>
+          </div>
+          <div class="timer-item">
+            <span id="hours" class="timer-number">00</span>
+            <span class="timer-label">Часы</span>
+          </div>
+          <div class="timer-item">
+            <span id="minutes" class="timer-number">00</span>
+            <span class="timer-label">Минуты</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="timing container">
+        <h2>Тайминг</h2>
+        <div class="divider"></div>
+        <div class="timing-text">
+          <p>10:30 — Служение</p>
+          <p>11:30 — Сочетание</p>
+          <p>12:30 — Банкет</p>
+        </div>
+      </section>
+
+      <section class="dress-code container">
+        <h2>Дресс-код</h2>
+        <div class="divider"></div>
+        <p>
+          Нам будет очень приятно, если вы поддержите стиль нашей свадьбы в
+          своих нарядах
+        </p>
+        <div class="dress-code-colors">
+          <span class="dress-code-color dress-code-color__1"></span>
+          <span class="dress-code-color dress-code-color__2"></span>
+          <span class="dress-code-color dress-code-color__3"></span>
+          <span class="dress-code-color dress-code-color__4"></span>
+          <span class="dress-code-color dress-code-color__5"></span>
+          <span class="dress-code-color dress-code-color__6"></span>
+        </div>
+      </section>
+
+      <section class="form-container container">
+        <h2 class="form-title">Анкета</h2>
+        <div class="divider"></div>
+        <form class="form" id="form" novalidate>
+          <p id="toast" class="toast"></p>
+          <input
+            class="input"
+            type="text"
+            name="name"
+            placeholder="Фамилия и имя"
+            required
+          />
+          <p class="form-question">Сможете ли присутствовать?</p>
+          <div class="label-radio-container">
+            <label class="label-radio">
+              <input type="radio" name="attendance" value="Да" required />
+              <span class="custom-radio"></span>
+              <span>С удовольствием приду</span>
+            </label>
+
+            <label class="label-radio">
+              <input type="radio" name="attendance" value="Нет" required />
+              <span class="custom-radio"></span>
+              <span>К сожалению, не могу</span>
+            </label>
+          </div>
+
+          <button class="form-button button">Отправить</button>
+          <p class="form-text">
+            Пожалуйста подтвердите ваше присутствие до 10.09.26
+          </p>
+        </form>
+      </section>
+
+      <section class="image-full">
+        <div class="img-2"></div>
+      </section>
+
+      <section class="contacts-container">
+        <h2>Контакты</h2>
+        <div class="divider"></div>
+        <div class="contacts-info">
+          <p>Антон — <a href="tel:+79180790288">+7 (918) 079-02-88</a></p>
+          <p>Виталина — <a href="tel:+79180160720">+7 (918) 016-07-20</a></p>
+        </div>
+      </section>
+
+      <section class="mark-container">
+        <p>Сделано в <a href="https://t.me/+YbE_PbPpNU8zYjI6">ilu</a></p>
+      </section>
+    </div>
+
+    <div class="desktop">
+      <h1>QR-КОД</h1>
+      <img class="qr-image" src="./assets/images/qr.svg" alt="qrcode" />
+      <p>Чтобы открыть пригласительное, отсканируйте QR-код</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
