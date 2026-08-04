@@ -307,6 +307,16 @@ a {
   background-color: #d9bac0;
 }
 
+/* details */
+
+.details {
+  dislay: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
 /* form */
 
 .form-container {
